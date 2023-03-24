@@ -1,0 +1,131 @@
+body {
+    width: 100vw;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* utils */
+
+.container {
+    max-width: 1470px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/* Header */
+
+.header {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-button {
+    cursor: pointer;
+    min-width: 150px;
+    min-height: 35px;
+    padding: 10px;
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 25px;
+    margin-left: auto;
+    transition: all 0.3s;
+}
+
+.header-button:hover {
+    opacity: 1px;
+    background-color: black;
+    color: #fff;
+}
+
+
+/* services-list */
+
+.services-list {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.services-list_item {
+    height: 420px;
+    flex-basis: calc((100% - 20px) / 3);
+    outline: 1px solid tomato;
+    background-image: url('../images/image.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s;
+    background-color: black;
+}
+
+.services-list_item:hover {
+    opacity: 0.6;
+    top: 1;
+}
+
+
+/* Footer */
+
+.footer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-list {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-list li {
+    font-size: 20px;
+    transition: all 0.2s;
+}
+
+
+/* .footer-list li:hover {
+    color: red;
+} */
+
+.footer-list li+li {
+    margin-top: 10px;
+}
+
+
+/* Map */
+
+.map-container {
+    margin-top: 40px;
+}
+
+.google-map {
+    display: block;
+    width: 100%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
