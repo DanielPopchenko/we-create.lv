@@ -2,10 +2,21 @@
     padding: 20px 0px;
 }
 
-.title {
+
+/* Description */
+
+.description-container {
+    text-align: center;
+}
+
+.description-title {
     text-align: center;
     font-size: 30px;
     margin-bottom: 10px;
+}
+
+.description-text {
+    font-size: 17px;
 }
 
 .images-list {
@@ -14,14 +25,6 @@
 
 .no-hover {
     pointer-events: none;
-}
-
-.control {
-    cursor: pointer;
-    color: #121212;
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
 }
 
 .disable {
@@ -33,7 +36,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 60px;
+    padding: 60px 60px;
+}
+
+.control {
+    cursor: pointer;
+    color: #121212;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
 }
 
 .controls .prev,
