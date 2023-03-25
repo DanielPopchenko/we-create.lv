@@ -1,0 +1,66 @@
+.service-main {
+    padding: 20px 0px;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.images-list {
+    margin-top: 50px;
+}
+
+.no-hover {
+    pointer-events: none;
+}
+
+.control {
+    cursor: pointer;
+    color: #121212;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.disable {
+    opacity: 0.2;
+    cursor: default;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+}
+
+.controls .prev,
+.next {
+    font-size: 25px;
+}
+
+.prev::before {
+    content: "";
+    margin-right: 10px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../images/arrow-left.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.next::after {
+    content: "";
+    margin-left: 10px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../images/arrow-right.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
